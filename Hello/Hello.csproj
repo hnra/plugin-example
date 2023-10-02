@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference 
+      Include="../NewVersion/NewVersion.csproj"
+      ReferenceOutputAssembly="False"
+      />
+    <ProjectReference 
+      Include="../OldVersion/OldVersion.csproj"
+      ReferenceOutputAssembly="False"
+    />
+    <ProjectReference Include="../Plugin/Plugin.csproj" />
+  </ItemGroup>
+
+</Project>

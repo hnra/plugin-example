@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>MyLib</AssemblyName>
+    <Version>1.0.0</Version>
+    <OutputPath>$(OutputPath)/OldVersion</OutputPath>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Plugin/Plugin.csproj" Private="false" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+</Project>
